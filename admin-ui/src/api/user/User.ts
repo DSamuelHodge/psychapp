@@ -1,0 +1,21 @@
+export type User = {
+  age: string | null;
+  birthdate: Date;
+  createdAt: Date;
+  director: string | null;
+  disabilityId: string | null;
+  firstName: string | null;
+  grade: string | null;
+  id: string;
+  lastName: string | null;
+  parentguardian: string | null;
+  psychologist: string | null;
+  roles: Array<string>;
+  school: string | null;
+  studentAddress: string | null;
+  studentEmail: string | null;
+  studentId: string | null;
+  teacherOfRecord: string | null;
+  updatedAt: Date;
+  username: string;
+};

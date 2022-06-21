@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.13.1",
+  "appInfo": {
+    "name": "My Psych App",
+    "description": "",
+    "version": "5det7hs5",
+    "id": "cl4nhdm2s81875501lgst19h8wx",
+    "url": "https://server.amplication.com/cl4nhdm2s81875501lgst19h8wx",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "cl4nhdm2s81875501lgst19h8wx",
+      "authProvider": "Jwt"
+    }
+  }
+}

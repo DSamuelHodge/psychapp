@@ -1,0 +1,31 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  age             String?
+  birthdate       DateTime
+  createdAt       DateTime @default(now())
+  director        String?
+  disabilityId    String?
+  firstName       String?
+  grade           String?
+  id              String   @id @default(cuid())
+  lastName        String?
+  parentguardian  String?
+  password        String
+  psychologist    String?
+  roles           String[]
+  school          String?
+  studentAddress  String?
+  studentEmail    String?
+  studentId       String?
+  teacherOfRecord String?
+  updatedAt       DateTime @updatedAt
+  username        String   @unique
+}
